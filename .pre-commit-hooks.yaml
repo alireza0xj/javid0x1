@@ -1,0 +1,6 @@
+- id: vaultscrub
+  name: vaultscrub
+  description: Scan files for secrets and PII
+  entry: vaultscrub scan --fail-on high
+  language: python
+  types: [file]
